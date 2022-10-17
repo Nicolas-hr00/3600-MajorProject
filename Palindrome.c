@@ -1,10 +1,9 @@
 /*
 Nicolas Hidalgo Rotunno
 */
+#include "major1.h"
 #include <stdio.h>
-#include <stdbool.h>
-
-void palindrome(int number)
+void major1::palindrome(int number)
  {
     if (number > 1)
 
@@ -12,7 +11,7 @@ void palindrome(int number)
 
      printf("%d", number & 1);
  }
-unsigned int reversing_bits(unsigned int number)//this is going to reverse the entire number
+unsigned int major1::reversing_bits(unsigned int number)//this is going to reverse the entire number
  {
    unsigned int reverse=0;
    while(number>0){ //this while is going through every number and reverse it until reaches the end
@@ -25,14 +24,16 @@ unsigned int reversing_bits(unsigned int number)//this is going to reverse the e
    return reverse;
  }
 
-bool isPalindrome(int number) //this functions is going check if the binary representation given is a palindrome or not
+bool major1::isPalindrome(int number) //this functions is going check if the binary representation given is a palindrome or not
  {
    unsigned int aft_reversed = reversing_bits(number);
    return (number == aft_reversed);
  }
 
 
-int main ()
+// int main ()
+// {
+void major1::printpalindrome()
 {
   unsigned int number;
 
@@ -52,8 +53,4 @@ int main ()
      printf("\n%d", number);
      printf(" is not a Palindrome ");
    }
-
-
-
-return 0;
 }
