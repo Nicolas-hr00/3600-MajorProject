@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
+#include "major1.h"
 
 //CREATED BY ERIC TSUCHIYA
 //EUID: ert0068
@@ -39,7 +40,7 @@ int findNext(int value)
 }
 
 //Main power.c function.
-int powerFunction (int userInput){
+void powerFunction (int userInput){
 
 	//storedVal stores the value of userInput so that it can be manipulated
 	int storedVal = userInput;
@@ -65,10 +66,10 @@ int powerFunction (int userInput){
 		//int nextVal = findNext(userInput);
 		//printf("%d is the next higher power of 2 integer found.", nextVal);
 	}
-	return 0;
+	//return 0;
 }
 
-int main(){ //REMOVE WHEN MAKEFILE IMPLEMENTED
-	powerFunction(64);
-	powerFunction(66);
-}
+//int main(){ //REMOVE WHEN MAKEFILE IMPLEMENTED
+//	powerFunction(64);
+//	powerFunction(66);
+//}
