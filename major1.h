@@ -16,5 +16,6 @@
 //};
 //
 void powerFunction(int);
+void replacebitpos();
 
 #endif
