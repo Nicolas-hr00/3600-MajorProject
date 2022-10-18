@@ -1,12 +1,14 @@
 #include<stdio.h>
-int main()
+#include "major.h"
+
+void replacebitpos()
 {
-	int intNum=0,intMask,replacement;
+	int intNum=0,intMask,replacement; //variables for integer, integer mask, and the replacement position
     while(1)
     {   
-	    printf("Enter a positive integer less than 2 billion: ");
+	    printf("Enter a positive integer less than 2 billion: "); // prompts and reads users integer value
 	    scanf("%d",&intNum);
-        if(intNum>2000000000||intNum<0){
+        if(intNum>2000000000||intNum<0){ // checks if integer is an accepted value
             continue;
           }
         else{
@@ -16,9 +18,9 @@ int main()
     
     while(1)
     {
-	    printf("Enter a positive integer mask up to 3 billion: ");
+	    printf("Enter a positive integer mask up to 3 billion: "); // prompts and reads users integer mask value
 	    scanf("%d",&intMask);
-        if(intMask>3000000000||intMask<0){
+        if(intMask>3000000000||intMask<0){ // checks if integer is an accepted value
             continue;
         }
         else{
@@ -28,9 +30,9 @@ int main()
     
     while(1)
     {
-	    printf("Enter the bit replacement position from mask (0-indexed): ");
+	    printf("Enter the bit replacement position from mask (0-indexed): "); // prompts and reads users bit replacement position value
 	    scanf("%d",&replacement);
-	    if(replacement>31||replacement<0){
+	    if(replacement>31||replacement<0){ // checks if integer is an accepted value
 	        continue;
           }
         else{
@@ -38,7 +40,7 @@ int main()
         }
     }
     
-	int temp=(intMask>>replacement)&1;
+	int temp=(intMask>>replacement)&1; >>
 
 	if(temp==1){
 		temp=temp<<replacement;
@@ -51,5 +53,4 @@ int main()
 		intNum&=flag;
 	}
 	printf("New integer with bit %d is %d\n",replacement,intNum);
-	return 0;
 }
