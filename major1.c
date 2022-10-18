@@ -50,7 +50,7 @@ do
            break;
 	}
 	case 3:{
-          //Replace
+          replacebitpos();
           break;
 	}
 	case 4:{
