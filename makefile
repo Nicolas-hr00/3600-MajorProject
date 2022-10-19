@@ -18,7 +18,7 @@ OBJ := major1.o \
 
 # default: compile program
 default: $(OBJ)
-	$(CC) -o binops $(OBJ)$(LIBRARIES)
+	$(CC) -o binops $(OBJ) $(LIBRARIES)
 
 # object file compilation
 %.o: %.c
