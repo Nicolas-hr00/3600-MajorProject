@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include "major.h"
+#include "major1.h"
 
 void replacebitpos()
 {
