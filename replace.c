@@ -1,21 +1,10 @@
 #include<stdio.h>
 #include "major1.h"
 
-void replacebitpos()
+void replacebitpos(int intNum)
 {
-	int intNum=0,intMask,replacement; //variables for integer, integer mask, and the replacement position
-    while(1)
-    {   
-	    printf("Enter a positive integer less than 2 billion: "); // prompts and reads users integer value
-	    scanf("%d",&intNum);
-        if(intNum>2000000000||intNum<0){ // checks if integer is an accepted value
-            continue;
-          }
-        else{
-            break;
-        }
-    }
-    
+	int intMask,replacement; //variables for integer, integer mask, and the replacement position
+
     while(1)
     {
 	    printf("Enter a positive integer mask up to 3 billion: "); // prompts and reads users integer mask value

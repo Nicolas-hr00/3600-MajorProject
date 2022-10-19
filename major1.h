@@ -16,6 +16,6 @@
 //};
 //
 void powerFunction(int);
-void replacebitpos();
+void replacebitpos(int);
 void binary_converter(int);
 #endif
