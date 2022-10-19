@@ -17,5 +17,5 @@
 //
 void powerFunction(int);
 void replacebitpos();
-
+void binary_converter(int);
 #endif

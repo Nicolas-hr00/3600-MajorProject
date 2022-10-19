@@ -46,7 +46,7 @@ do
           break;
 	}
 	case 2:{
-           //Reverse
+	  binary_converter(value);
            break;
 	}
 	case 3:{
