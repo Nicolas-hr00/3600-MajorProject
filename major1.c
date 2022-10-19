@@ -1,5 +1,6 @@
 #include "major1.h"
 
+
 int main ()
 {
 
@@ -8,7 +9,7 @@ printf("           +------------------------------------------------------------
 
 int selection;
 printf("\n Welcome to the menu \n ");
-major1 object;
+// major1 object;
 do
 {//start of do
   printf("\nEnter the menu option for the operation to perform:");
@@ -40,7 +41,7 @@ do
      case 4:
        {
          //Palindrome
-         object.printpalindrome();
+         printpalindrome();
          break;
        }
      case 5:
