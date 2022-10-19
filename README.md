@@ -2,7 +2,9 @@
 
 UPDATE(S):
 - Update 2 - Eric Tsuchiya - 10/19/2022 -
--   All files except Palindrome.c fully implemented.
+-   !ALL FILES ARE READY TO RUN
+    !ALL FILES ARE READY TO RUN
+    !ALL FILES ARE READY TO RUN
 
 FILES:
 -   power.c - created by Eric Tsuchiya
