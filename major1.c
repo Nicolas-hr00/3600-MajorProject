@@ -37,7 +37,7 @@ do
   { //start of do 3
     printf("Enter a positive integer less than 2 billion: ");
     scanf("%d", &value);
-  } while (value > 1999999999 || value < 1); //end of do 3
+  } while (value >= 1999999999 || value < 1); //end of do 3
 
   switch (selection)
   {//start of switch
