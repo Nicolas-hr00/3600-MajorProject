@@ -3,11 +3,11 @@ Nicolas Hidalgo Rotunno
 */
 #include "major1.h"
 #include <stdio.h>
-void palindrome(int number)
+void printpalindrome(int number)
  {
     if (number > 1)
 
-       palindrome(number >> 1);
+      printpalindrome(number >> 1);
 
      printf("%d", number & 1);
  }
@@ -33,17 +33,15 @@ bool isPalindrome(int number) //this functions is going check if the binary repr
  }
 
 
-// int main ()
-// {
-void printpalindrome()
+void palindrome()
 {
   unsigned int number;
 
   printf ("Enter a positive integer less than 2 billion ");//asks the user of te value and stores it on number the, it is an unsigned number
   scanf ("%u", &number);
-  printf("Binary Representation of %d", number); //this print the binary representation of the nubmer
+   printf("Binary Representation of %d", number); //this print the binary representation of the nubmer
   printf(" = ");
-  palindrome(number);
+  printpalindrome(number);
 
   if (isPalindrome(number)) //this checks if it a palindrome by calling the function is palindrome
   {

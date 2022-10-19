@@ -4,19 +4,12 @@
 
 #ifndef MAJORH
 #define MAJORH
-// class major1
-// {
-//   public:
-//     //==========================Palindrome===================================
-//     void palindrome(int number);
+
 //     unsigned int reversing_bits(unsigned int number);
 //     bool isPalindrome(int number);
-//     void printpalindrome();
-//     //==========================Palindrome===================================
-//
-// };
-void palindrome(int number);
-    unsigned int reversing_bits(unsigned int number);
-    bool isPalindrome(int number);
-    void printpalindrome();
-#endif
+ #endif
+//=======
+void palindrome(); //Nicolas Hidalgo Rotunno
+void powerFunction(int); //Eric Tsuchiya
+void replacebitpos(int); //Brandon Tsuchiya
+void binary_converter(int); //Sahardeed Ahmed
