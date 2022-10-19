@@ -13,7 +13,7 @@ FILES:
 -   makefile created by Eric Tsuchiya
 
 DEVELOPMENT INFORMATION:
-Eric Tsuchiya oversaw most of the development of major1.h, major1.c, and makefile.
+Eric Tsuchiya oversaw most of the development of major1.h, major1.c, makefile and general organization.
 Eric Tsuchiya oversaw team communication and made sure everyone was doing their part.
 Nicolas Hidalgo Rotunno assisted with some of the features of major1.c and major1.h. Created the files originally, along with the GitHub repository.
 
