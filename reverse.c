@@ -1,26 +1,25 @@
 #include <math.h>
 #include <stdio.h>
-
+#include "major1.h"
 
 // Brandon Tsuchiya
 // CSCE 3600: Systems Programming
 // 10/19/2022
 
 
-int  num_input(int num)
-{
-        scanf("%d", &num);
-
-	if (num >= 2000000000 || num <= 0)
-	{
-        	printf("Enter a positive integer less than 2 billion: ");
-		num_input(num);
-	}
-	else
-	{
-		return num;
-	}
-}
+//int  num_input(int num)
+//{
+//        scanf("%d", &num);
+//
+//	if (num >= 2000000000 || num <= 0)
+//	{
+//		num_input(num);
+//	}
+//	else
+//	{
+//		return num;
+//	}
+//}
 
 void binary_converter(int num)
 {
@@ -55,13 +54,11 @@ void binary_converter(int num)
 	printf("%d with bits reversed is %d\n", orig_num, total);
 }
 
-int main(){
+//int main(){
 
-printf("Enter a positive integer less than 2 billion: ");
+//int num = num_input(num);
+//binary_converter(num);
 
-int num = num_input(num);
-binary_converter(num);
+//return 0;
 
-return 0;
-
-}
+//}
