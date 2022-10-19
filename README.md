@@ -9,7 +9,8 @@ FILES:
 -   reverse.c - created by Brandon Tsuchiya
 -   replace.c - created by Sahardeed Ahmed
 -   Palindrome.c (case sensitive) - created by Nicolas Hidalgo Rotunno - still in work.
-- major1.c and major1.h created by Nicolas Hidalgo Rotunno - Edited by Eric Tsuchiya
+-   major1.c and major1.h created by Nicolas Hidalgo Rotunno - Edited by Eric Tsuchiya
+-   makefile created by Eric Tsuchiya
 
 DEVELOPMENT INFORMATION:
 Eric Tsuchiya oversaw most of the development of major1.h, major1.c, and makefile.
