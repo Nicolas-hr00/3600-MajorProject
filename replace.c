@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include "major1.h"
+#include "major.h"
 
 void replacebitpos()
 {
@@ -40,7 +40,7 @@ void replacebitpos()
         }
     }
     
-	int temp=(intMask>>replacement)&1; >>
+	int temp=(intMask>>replacement)&1;
 
 	if(temp==1){
 		temp=temp<<replacement;
