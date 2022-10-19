@@ -1,14 +1,14 @@
 # 3600-MajorProject
 
 UPDATE(S):
-- Update 1 - Eric Tsuchiya - 10/18/2022 -
+- Update 2 - Eric Tsuchiya - 10/19/2022 -
 -   All files except Palindrome.c fully implemented.
 
 FILES:
 -   power.c - created by Eric Tsuchiya
 -   reverse.c - created by Brandon Tsuchiya
 -   replace.c - created by Sahardeed Ahmed
--   Palindrome.c (case sensitive) - created by Nicolas Hidalgo Rotunno - still in work.
+-   palindrome.c - created by Nicolas Hidalgo Rotunno
 -   major1.c and major1.h created by Nicolas Hidalgo Rotunno - Edited by Eric Tsuchiya
 -   makefile created by Eric Tsuchiya
 
@@ -19,9 +19,8 @@ Nicolas Hidalgo Rotunno assisted with some of the features of major1.c and major
 
 KNOWN BUGS:
 If user enters a letter/word instead of a number when prompted to select an option from the menu, the loop will run indefinitely.
-Palindrom.c unfinished. Nicolas Hidalgo Rotunno is working on it. Preventing the makefile from working properly. (See RUN section )
+Same case for anything asking for a number.
 
 RUN:
-- makefile malfunction - Palindrome.c prevents compilation.
-- TO RUN WITHOUT Palindrome.c, enter: gcc major1.c power.c reverse.c replace.c -o binops -lm
+- TO RUN, enter: make
 - ./binops
