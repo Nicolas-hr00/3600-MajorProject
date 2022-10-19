@@ -30,7 +30,7 @@ int findNext(int value)
 		{
 			//do nothing
 		}
-		else if (count = 1)
+		else if (count == 1)
 		{
 			found = true;
 			break;
@@ -61,15 +61,10 @@ void powerFunction (int userInput){
 		int nextVal = findNext(userInput);
 		printf("Next higher integer that is a power of 2 is: %d\n", nextVal);
 	}
-	else if (count = 1){
+	else if (count == 1){
 		printf("%d IS a power of 2\n", userInput);
 		//int nextVal = findNext(userInput);
 		//printf("%d is the next higher power of 2 integer found.", nextVal);
 	}
 	//return 0;
 }
-
-//int main(){ //REMOVE WHEN MAKEFILE IMPLEMENTED
-//	powerFunction(64);
-//	powerFunction(66);
-//}

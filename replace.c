@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include "major1.h"
 
+//Created by Sahardeed Ahmed
+
 void replacebitpos(int intNum)
 {
 	int intMask,replacement; //variables for integer, integer mask, and the replacement position

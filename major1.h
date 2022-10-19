@@ -1,21 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-#ifndef MAJORH
-#define MAJORH
-
-//class major1
-//{
-//  public:
-    //==========================Palindrome===================================
-//    void palindrome(int number);
-//    unsigned int reversing_bits(unsigned int number);
-//    bool isPalindrome(int number);
-//    void printpalindrome();
-    //==========================Palindrome===================================
-//};
-//
-void powerFunction(int);
-void replacebitpos(int);
-void binary_converter(int);
-#endif
+void powerFunction(int); //Eric Tsuchiya
+void replacebitpos(int); //Brandon Tsuchiya
+void binary_converter(int); //Sahardeed Ahmed

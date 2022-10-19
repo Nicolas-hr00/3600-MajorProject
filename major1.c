@@ -2,8 +2,6 @@
 
 int main (){
 
-printf("           +--------------------------------------------------------------+\n           |            Computer Science and Engineering                  |\n           |       CSCE 2110 - Foundation of Data Structures              |\n           |                                                              |\n           |                      Major Assignmment                       |\n           |                                                              |\n           |                               Group Members:                 |\n           |                      Brandon Tsuchiya                        |\n           |                       Eric Tsuchiya                           |\n           |               Sahardeed AhmedSahardeed Ahmed                 |\n           |                       Nicolas Rotunno                        |\n           +--------------------------------------------------------------+\n\n\n");
-
 int selection;
 int value=0;
 
@@ -54,8 +52,8 @@ do
           break;
 	}
 	case 4:{
+	   printf("palindrome - under construction");
            //Palindrome
-           //object.printpalindrome();
 	   break;
 	}
   }//end of switch
